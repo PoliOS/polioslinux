@@ -1,0 +1,20 @@
+#!/bin/sh
+# postrm script
+#
+# see: dh_installdeb(1)
+
+set -e
+
+if [ -f /etc/dpkg/origins/default ]; then
+rm -f /etc/dpkg/origins/default
+fi
+
+if [ -f /etc/dpkg/origins/debian ]; then
+ln -sf /etc/dpkg/origins/debian /etc/dpkg/origins/default
+fi
+
+update-grub
+
+exit 0
+
+

@@ -1,0 +1,12 @@
+RELEASE=3
+CODENAME=lobo-guara
+EDITION=duzeru
+DESCRIPTION="DuZeru"
+#DESKTOP=
+DISTRIB_ID=DuZeru
+TOOLKIT=GTK
+NEW_FEATURES_URL=http://duzeru.org
+RELEASE_NOTES_URL=http://duzeru.org
+USER_GUIDE_URL=http://duzeru.org
+GRUB_TITLE="DuZeru"
+

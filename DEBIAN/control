@@ -1,0 +1,11 @@
+Package: duzeru-info
+Version: 1.0.0
+Architecture: all
+Maintainer: Claudio A. Silva <claudiosilva@duzeru.org>
+Installed-Size: 76
+Depends: dpkg
+Section: 
+Priority: optional
+Description: DuZeru Info
+  This package is needed to identify the system and release of DuZeru.
+
